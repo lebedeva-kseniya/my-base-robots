@@ -20,6 +20,11 @@ dependencies {
     testImplementation libs.junit.jupiter
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.9.2'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
